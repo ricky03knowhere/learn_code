@@ -1,0 +1,77 @@
+// Variables
+$primary-color: #21384B
+$secondary-color: #5ED7F2
+$ternery-color: #2445A6
+
+$secondary1-color: #275D73
+$secondary-2color: #1D3240
+$secondary-c3olor: #05C7F2
+
+section
+  padding-top: 70px
+
+//NAVBAR  
+.navbar
+  background: $primary-color
+  .fa
+    transform: rotate(15deg)
+    margin-right: .2em
+  .nav-item .nav-link
+    color: #fff
+    &.active
+      color: $secondary-color
+
+// HOME
+.jumbotron
+  background: $primary-color
+  padding-top: 2rem
+  color: #fff
+
+  .logo-wrapper
+    border-radius: 10em
+    border: 3px solid $secondary-color
+    display: grid
+    width: 10em
+    height: 10em
+    margin: auto
+    align-content: center
+    justify-content: center
+    .fa
+      font-size: 4rem
+      transform: rotate(15deg)
+
+    h1
+      font-weight: bold
+      margin-top: 2em
+
+// ABOUT
+#about
+  p
+    text-align: justify
+
+//WEB 
+#web
+  background: $primary-color
+  // height: 100vh
+  color: white
+  h5
+    color: $secondary-color
+
+//Gallery
+#gallery
+  color: #fff
+  background: $primary-color
+  .img-container
+    .col-md-3
+      position: relative
+      padding: 0
+      margin: 1em
+      overflow: hidden !important
+      height: 20em 
+      border-radius: 1em !important
+      background: #fff
+      display: grid
+      align-items: center
+
+footer
+  background: $primary-color

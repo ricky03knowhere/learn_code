@@ -1,0 +1,75 @@
+section {
+  padding-top: 70px;
+}
+
+.navbar {
+  background: #21384B;
+}
+.navbar .fa {
+  transform: rotate(15deg);
+  margin-right: 0.2em;
+}
+.navbar .nav-item .nav-link {
+  color: #fff;
+}
+.navbar .nav-item .nav-link.active {
+  color: #5ED7F2;
+}
+
+.jumbotron {
+  background: #21384B;
+  padding-top: 2rem;
+  color: #fff;
+}
+.jumbotron .logo-wrapper {
+  border-radius: 10em;
+  border: 3px solid #5ED7F2;
+  display: grid;
+  width: 10em;
+  height: 10em;
+  margin: auto;
+  align-content: center;
+  justify-content: center;
+}
+.jumbotron .logo-wrapper .fa {
+  font-size: 4rem;
+  transform: rotate(15deg);
+}
+.jumbotron .logo-wrapper h1 {
+  font-weight: bold;
+  margin-top: 2em;
+}
+
+#about p {
+  text-align: justify;
+}
+
+#web {
+  background: #21384B;
+  color: white;
+}
+#web h5 {
+  color: #5ED7F2;
+}
+
+#gallery {
+  color: #fff;
+  background: #21384B;
+}
+#gallery .img-container .col-md-3 {
+  position: relative;
+  padding: 0;
+  margin: 1em;
+  overflow: hidden !important;
+  height: 20em;
+  border-radius: 1em !important;
+  background: #fff;
+  display: grid;
+  align-items: center;
+}
+
+footer {
+  background: #21384B;
+}
+
+/*# sourceMappingURL=style.css.map */
